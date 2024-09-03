@@ -27,7 +27,7 @@ scanning `src/`. If we run PHPStan only on a single test that does not use
     $ vendor/bin/phpstan analyse tests/ClassATest.php
     Note: Using configuration file /Volumes/Work/git/phpstan-autoload-error-example/phpstan.neon.
      1/1 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100%
-    
+    autoloaded. `require_once` complains the file does not exist when it really
      ------ ---------------------------------------------------------------------------------------------------------------
       Line   ClassATest.php
      ------ ---------------------------------------------------------------------------------------------------------------
